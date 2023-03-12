@@ -1,8 +1,9 @@
-package domain;
+package rentcar.domain;
 
-import domain.K5;
-import domain.RentCompany;
-import domain.Sonata;
+import rentcar.domain.Avante;
+import rentcar.domain.K5;
+import rentcar.domain.RentCompany;
+import rentcar.domain.Sonata;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -15,7 +16,7 @@ public class RentCompanyTest {
         RentCompany company = RentCompany.create(); // factory method를 사용해 생성
         company.addCar(new Sonata(150));
         company.addCar(new K5(260));
-        company.addCar(new Sonata(120));
+        company.addCar(new  Sonata(120));
         company.addCar(new Avante(300));
         company.addCar(new K5(390));
 

@@ -1,4 +1,4 @@
-package domain;
+package rentcar.domain;
 
 public class Sonata extends Car {
     private int distance;
@@ -7,7 +7,6 @@ public class Sonata extends Car {
     public Sonata(int num) {
         this.distance = num;
     }
-
 
     @Override
     double getDistancePerLiter() {

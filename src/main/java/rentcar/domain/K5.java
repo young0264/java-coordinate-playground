@@ -1,4 +1,4 @@
-package domain;
+package rentcar.domain;
 
 public class K5 extends Car {
     private int distance;

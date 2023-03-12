@@ -1,4 +1,4 @@
-package domain;
+package rentcar.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,6 @@ public class RentCompany {
 
     public String generateReport() {
         for (Car car : company) {
-
             String result = String.format("%s : %s리터", car.getName(), (int)car.getChargeQuantity()) + NEWLINE;
             System.out.println(result);
             report.append(result);
